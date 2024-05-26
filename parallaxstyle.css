@@ -1,0 +1,75 @@
+
+html,
+ body {
+    height: 100%;
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(187, 182, 182);
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+.textbg{
+    background-color: #313534;
+    padding: 20px;
+    
+}
+
+.pimage1{
+    background-image: url(pimage1.jpg);
+    min-height: 100%;
+
+   
+}
+
+.pimage2{
+    background-image: url(pimage2.jpg);
+    min-height: 400px;
+}
+.pimage3{
+    background-image: url(pimage3.jpg);
+    min-height: 400px;
+}
+
+.pimage1 , .pimage2 , .pimage3 {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    position: relative;
+
+
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+
+}
+
+.section-light{
+    background-color: wheat;
+    color: grey;
+
+}
+
+.section-dark{
+    background-color: rgb(29, 25, 25);
+    color: rgb(194, 186, 186);
+}
